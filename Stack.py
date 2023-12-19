@@ -36,12 +36,21 @@ class Stack:
             self.height += 1
             return temp
 
+
+    # Returns top element of stack
     def peek(self):
         if self.height:
-            return self.top
+            return self.top.value
         return None
 
     def is_empty(self):
         if self.top is None:
             return True
         return False
+
+
+new=Stack(65)
+new.push(857)
+new.display()
+new.pop()
+new.display()
