@@ -44,4 +44,5 @@ print("current size: ", s.size())
 
 # deque stands for "double-ended queue," and it is a data structure that allows
 # elements to be added or removed from both ends with O(1) time complexity.
-#  In Python, the collections module provides a built-in implementation of a deque through the deque class.
+# In Python, the collections module provides a built-in implementation of a deque through the deque class.
+# The popleft() method in Python's deque removes and returns the leftmost (first) element from the deque
